@@ -1,0 +1,106 @@
+.container{
+    text-align: center;
+}
+
+.container table {
+    margin: 0 auto; 
+}
+
+body{
+    background-color:whitesmoke;
+}
+
+header{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image:url("https://i.pinimg.com/564x/9d/dc/cc/9ddccc99f05e5313818846ba4431158e.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+header p {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 41, 10);
+
+}
+
+header h1{
+    color: rgb(94, 68, 20);
+}
+
+nav{
+    background-color: rgba(255, 255, 171, 0.61);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+nav a{
+    padding-left: 10px;
+    color: rgb(99, 129, 218);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main h2{
+    color: rgb(242, 113, 98);
+}
+
+table {
+    width: 600px;
+    background-color: rgb(216, 243, 177);
+}
+
+table, th, td {
+    border: 2px solid;
+    border-color: brown;
+    border-collapse: collapse;
+  }
+
+th{
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+}
+
+td{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(2, 58, 2);
+    font-weight: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sss {
+    text-align: center;
+    color: rgb(242, 113, 98);
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.cards h2{
+    size: 30px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    background-color: #f4f4f9;
+    }
+footer ul {
+    list-style: none;
+    padding: 0;
+    }
+
+footer ul li {
+    display: inline;
+    margin-right: 1rem;
+    }
+    
