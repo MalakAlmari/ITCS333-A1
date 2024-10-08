@@ -76,7 +76,7 @@ td{
 
 .sss {
     text-align: center;
-    color: rgb(242, 113, 98);
+    color: orange;
 }
 
 .cards{
@@ -86,6 +86,7 @@ td{
 .cards h2{
     size: 30px;
     text-align: center;
+    color: rgb(193, 193, 35);
 }
 
 footer {
