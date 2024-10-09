@@ -89,11 +89,34 @@ td{
     color: rgb(193, 193, 35);
 }
 
+.Annoucements{
+    text-align: center;
+    background-color: pink;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.Annoucements h2{
+    color: purple;
+    font-weight: bold;
+}
+
+.Annoucements p{
+    color: rgb(153, 47, 153);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Annoucements a{
+    padding-left: 10px;
+    color: palevioletred;
+    font-weight: bold;
+}
+
 footer {
     text-align: center;
     margin-top: 2rem;
     padding: 1rem 0;
-    background-color: #f4f4f9;
+    background-color: #ddc54e92;
     }
 footer ul {
     list-style: none;
@@ -104,3 +127,6 @@ footer ul li {
     display: inline;
     margin-right: 1rem;
     }
+footer a{
+    color: red;
+}
