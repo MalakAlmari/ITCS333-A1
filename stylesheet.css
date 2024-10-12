@@ -171,3 +171,19 @@ footer a{
 footer a:hover{
     color: blue;
 }
+
+@media(max-width:600px){
+    .cards{
+        grid-template-columns: 1fr;
+        margin-left: auto;
+    }
+
+    .Teacher{
+        grid-template-columns: 1fr;
+
+    }
+    .AboutTeacher{
+        text-align: center;
+    }
+
+}
