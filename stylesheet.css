@@ -1,17 +1,20 @@
 
-
+/* style the div continer to be in the center */
 .container{
     text-align: center;
 }
 
+/* style the table that is inside the div container to be in the center */
 .container table {
     margin: 0 auto; 
 }
 
+/* change the body background color */
 body{
     background-color:whitesmoke;
 }
 
+/* style the header adding padding and a background img */
 header{
     text-align: center;
     padding-top: 30px;
@@ -21,24 +24,27 @@ header{
     background-size: 100%;
 }
 
+/* style the header paragraph */
 header p {
     font-size: 15px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(58, 41, 10);
-
 }
 
+/* style the header heading */
 header h1{
     color: rgb(94, 68, 20);
 }
 
+/* style the menu bar*/
 nav{
     background-color: rgba(255, 255, 171, 0.61);
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
+/* give the menu bar links some styling */
 
 nav a{
     padding-left: 10px;
@@ -47,14 +53,18 @@ nav a{
     text-decoration: none;
 }
 
+/* add hover styling to the menu bar links */
+
 nav a:hover{
     color: red;
 }
 
+/* style the weekly schedule heading */
 main h2{
     color: red;
 }
 
+/* styling the table */
 table {
     width: 600px;
     background-color: rgb(216, 243, 177);
@@ -80,11 +90,13 @@ td{
     padding-bottom: 5px;
 }
 
+/* style the Class Activities heading */
 .sss {
     text-align: center;
     color: orange;
 }
 
+/* style the cards and display them using the grid */
 .cards{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -95,6 +107,7 @@ td{
     color: rgb(193, 193, 35);
 }
 
+/* special  styling for the annoucements */
 .Annoucements{
     text-align: center;
     background-color: pink;
@@ -118,6 +131,7 @@ td{
     font-weight: bold;
 }
 
+/* adding hover affect to the links */
 .Annoucements a:hover{
     color: black;
 }
@@ -127,6 +141,7 @@ td{
     text-align: center;
 }
 
+/* display the about the teacher using grid */
 .Teacher{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -147,6 +162,7 @@ td{
     color: rgb(111, 111, 212);
 }
 
+/* style the footer nicely */
 footer {
     text-align: center;
     margin-top: 2rem;
@@ -167,6 +183,8 @@ footer ul li {
 footer a{
     color: red;
 }
+
+/* adding hover effect for the links in the footer */
 
 footer a:hover{
     color: blue;
