@@ -189,7 +189,7 @@ footer a{
 footer a:hover{
     color: blue;
 }
-
+/* Make the layout responsive*/
 @media(max-width:600px){
     .cards{
         grid-template-columns: 1fr;
