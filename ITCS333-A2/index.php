@@ -22,6 +22,27 @@ $result = $data["results"];
     <meta name="viewport" content="width=device-width, initial-scale=1">
     //link pico
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    
+    <style>
+        table{
+            border: 2px;
+            border-collapse: collapse;
+        }
+        
+        table tr:hover{
+            background-color: lightblue;
+            color: darkblue;                
+        }
+
+        table th {
+            background-color: lightpink;
+        }
+
+        table td{
+            background-color: lavender;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     //Create a container with horizontal scroll for the table (overglow-auto)
