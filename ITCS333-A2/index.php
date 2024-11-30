@@ -36,7 +36,8 @@ $result = $data["results"];
         }
 
         table th {
-            background-color: lightpink;
+            background-color: gray;
+            color: black;
         }
 
     </style>
