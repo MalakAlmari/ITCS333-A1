@@ -1,13 +1,17 @@
 <?php
+//API URL to fetch the data
 $URL = "https://data.gov.bh/api/explore/v2.1/catalog/datasets/01-statistics-of-students-nationalities_updated/records?where=colleges%20like%20%22IT%22%20AND%20the_programs%20like%20%22bachelor%22&limit=100";
 
+//Get the data from the API then decode it
 $response = file_get_contents($URL);
 $data = json_decode($response, true);
 
+//Check if the data was retrieved successfully and if the results is exist
 if (!$data || !isset($data["results"])) {
     die('ERROR in fetching the data of the student from the API');
 }
 
+//Extract results from the decoded data
 $result = $data["results"];
 
 ?>
@@ -16,7 +20,6 @@ $result = $data["results"];
 <head>
     <title>UOB Students Enrollment by Nationality</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    //link pico
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
     
     <style>
@@ -39,7 +42,6 @@ $result = $data["results"];
     </style>
 </head>
 <body>
-    // Create a container with horizontal scroll for the table (overglow-auto)
     <div class="overflow-auto">
     <table>
         <thead>
@@ -54,6 +56,7 @@ $result = $data["results"];
         </thead>
         <tbody>
             <?php
+            // A foreach loop to iterate for each student and dislpay it in the table
             foreach ($result as $student) {
                 ?>
                 <tr>
