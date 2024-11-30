@@ -43,6 +43,7 @@ $result = $data["results"];
     </style>
 </head>
 <body>
+    // Create a container with horizontal scroll for the table (overglow-auto)
     <div class="overflow-auto">
     <table>
         <thead>
