@@ -27,21 +27,18 @@ $result = $data["results"];
         table{
             border: 2px;
             border-collapse: collapse;
+            text-align: center;
+            color: black;
         }
         
         table tr:hover{
-            background-color: lightblue;
-            color: darkblue;                
+            background-color: lightblue;                
         }
 
         table th {
             background-color: lightpink;
         }
 
-        table td{
-            background-color: lavender;
-            text-align: center;
-        }
     </style>
 </head>
 <body>
